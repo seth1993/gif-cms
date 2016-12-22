@@ -1,12 +1,12 @@
-name                      : CMS
+name                      : PROVO SPOT
 version                   : 8.0.0
-author                    : Totaljs.com Ltd
+author                    : Seth Bailey
 
 // A relative URL address into the eshop management
 manager-url               : /$manager
 
 // Hidden super admin in the form username:password
-manager-superadmin        : admin:admin
+manager-superadmin        : seth1993:2233
 
 // Custom SMTP settings
 mail.smtp                 : YOUR.SMTPSERVER.COM
