@@ -1,23 +1,18 @@
 {
-  "name": "provospot",
-  "version": "1.0.0",
-  "description": "Find your favorite spots in Provo",
-  "main": "server.js",
-  "scripts": {
-    "build-css": "stylus source/stylesheets/index.styl -o static/css",
-    "watch-css": "stylus source/stylesheets/index.styl -o static/css -w",
-    "clean": "rm -rf static/css && mkdir -p static/css",
-    "build": "npm run clean && npm run build-css",
-    "watch": "npm run clean && npm run watch-css & nodemon server -e js,jade",
-    "start": "node server"
-  },
-  "author": "Seth Bailey",
-  "license": "UNLICENSED",
+  "name": "CMS",
+  "description": "Simple and powerful CMS solution written in total.js / node.js.",
+  "version": "4.1.0",
+  "main": "release.js",
   "dependencies": {
-    "express": "^4.13.4",
-    "jade": "^1.11.0",
-    "morgan": "^1.7.0",
-    "nodemon": "^1.9.1",
-    "stylus": "^0.53.0"
-  }
+    "total.js": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eshop",
+    "ecommerce"
+  ],
+  "author": "Peter Širka",
+  "license": "You can't share and resell the source-code as a product (and its modification). But you can sell the eshop as end product to end user."
 }
