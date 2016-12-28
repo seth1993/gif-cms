@@ -8,7 +8,7 @@ var fs = require('fs');
 var options = {};
 
 // options.ip = '127.0.0.1';
-options.port = 61871;//parseInt(process.argv[2]);
+options.port = 80;//parseInt(process.argv[2]);
 options.config = { name: 'PROVO SPOT' };
 // options.https = { key: fs.readFileSync('keys/agent2-key.pem'), cert: fs.readFileSync('keys/agent2-cert.pem')};
 
